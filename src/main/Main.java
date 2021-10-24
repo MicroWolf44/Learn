@@ -8,7 +8,8 @@ public class Main{
 
     public static void main(String args[]){
 
-        l1p1.Primer1();
+        //l1p1.primer1();
+        l1p1.primer2(123);
 
     }
 
