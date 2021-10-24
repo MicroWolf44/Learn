@@ -8,11 +8,12 @@ public class Main{
 
     public static void main(String args[]){
 
-        //chast1.primer1();
+        //chast1.primer1("Privet");
         //chast1.primer2(123);
         //chast1.primer3(2,2);
         //chast1.primer4(1,10);
-        chast1.primer5(1,10);
+        //chast1.primer5(1,10);
+
     }
 
 }
