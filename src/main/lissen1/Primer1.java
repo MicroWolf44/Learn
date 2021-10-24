@@ -15,4 +15,25 @@ public class Primer1 {
         System.out.println("Значение переменной num * 2 - "+num);
     }
 
+    public void primer3(int x, int y){
+
+        if (x<y){
+            System.out.println("X menshe Y");
+        }
+        else if (x>y){
+            System.out.println("X bolshe Y");
+        }
+        else {
+            System.out.println("X raven Y");
+        }
+    }
+
+    public void primer4(int x, int y){
+
+        for (;x<=y; x++) {
+            System.out.println("Znachenie X - " + x);
+        }
+
+    }
+
 }

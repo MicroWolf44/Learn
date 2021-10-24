@@ -9,7 +9,9 @@ public class Main{
     public static void main(String args[]){
 
         //l1p1.primer1();
-        l1p1.primer2(123);
+        //l1p1.primer2(123);
+        //l1p1.primer3(2,2);
+        l1p1.primer4(1,10);
 
     }
 
