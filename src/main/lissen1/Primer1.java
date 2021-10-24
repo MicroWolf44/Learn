@@ -30,10 +30,18 @@ public class Primer1 {
 
     public void primer4(int x, int y){
 
-        for (;x<=y; x++) {
+        for (; x<=y; x++) {
             System.out.println("Znachenie X - " + x);
         }
+    }
 
+    public void primer5(int x, int y){
+
+        for ( ; x<=y; x++){
+            System.out.println("X ravno - " +x);
+            System.out.println("Y ravno - "+y);
+            y=y-2;
+        }
     }
 
 }
