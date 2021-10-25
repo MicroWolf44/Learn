@@ -69,4 +69,19 @@ public class Primer1 {
         }
     }
 
+    /**
+     * Primer rascheta skorosti sveta
+     * @param day kolichestvo dnei
+     */
+    public void primer6(double day){
+
+        int lightspeed = 186000;
+        double second = day * 24 *60 * 60;
+        double distance = lightspeed + second;
+
+        System.out.print("Za " + day + " dnei ");
+        System.out.println("svet proidet okolo " + distance + " mil");
+
+    }
+
 }

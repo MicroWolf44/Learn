@@ -13,6 +13,7 @@ public class Main{
         //chast1.primer3(2,2);
         //chast1.primer4(1,10);
         //chast1.primer5(1,10);
+        //chast1.primer6(10);
 
     }
 
