@@ -106,4 +106,30 @@ public class Primer1 {
         System.out.println("Vtoroi simvol - " + vtoroi);
     }
 
+    /**
+     * Primer matematicheskogo izmeneniya simvola
+     * @param simvol
+     */
+    public void primer9(char simvol){
+
+        System.out.println("Simvol - " + simvol);
+        simvol++;
+        System.out.println("Simvol posle uvelocheniya na 1 - " + simvol);
+    }
+
+    /**
+     * Primer demonstracii tipa BOOLEAN
+     */
+    public void primer10(){
+
+        boolean b = false;
+        System.out.println("b ravno " + b);
+        b = true;
+        System.out.println("b ravno " + b);
+        if (b) System.out.println("Etot kod vipolnyaetsa");
+        b = true;
+        if (b) System.out.println("Etot kod ne vipolnyaetsa");
+        System.out.println("10>9 ravno " + (10>9));
+    }
+
 }
