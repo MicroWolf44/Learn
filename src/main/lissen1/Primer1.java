@@ -81,7 +81,29 @@ public class Primer1 {
 
         System.out.print("Za " + day + " dnei ");
         System.out.println("svet proidet okolo " + distance + " mil");
+    }
 
+    /**
+     * Primer vichisleniyz ploshadi kruga
+     * @param radios radios kruga
+     */
+    public void primer7(double radios){
+
+        final double pi = 3.1416;
+        double ploshad = pi * radios * radios;
+
+        System.out.println("Ploshad kruga ravna " + ploshad);
+    }
+
+    /**
+     * Primer demonstracii primeneniya tipa CHAR
+     * @param pervii pervii simvol
+     * @param vtoroi vtooi simvol
+     */
+    public void primer8(char pervii, char vtoroi){
+
+        System.out.println("Pervii simvol - " + pervii);
+        System.out.println("Vtoroi simvol - " + vtoroi);
     }
 
 }

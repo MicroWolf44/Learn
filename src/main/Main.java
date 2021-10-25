@@ -14,7 +14,8 @@ public class Main{
         //chast1.primer4(1,10);
         //chast1.primer5(1,10);
         //chast1.primer6(10);
-
+        //chast1.primer7(12.5);
+        //chast1.primer8((char) 88, 'R');
     }
 
 }
